@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tota.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Tota.Core.Modularity.IModuleManager">
+            <summary>
+            模块管理器
+            </summary>
+        </member>
+        <member name="T:Tota.Core.Modularity.ITotaModule">
+            <summary>
+            模块
+            </summary>
+        </member>
+        <member name="T:Tota.Core.Modularity.ITotaModuleDescriptor">
+            <summary>
+            模块描述符
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.Type">
+            <summary>
+            模块类型
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.Assembly">
+            <summary>
+            模块主程序集
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.AllAssemblies">
+            <summary>
+            所有程序集
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.Instance">
+            <summary>
+            模块实例
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.IsLoadedAsPlugIn">
+            <summary>
+            模块是否加载为插件
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.ITotaModuleDescriptor.Dependencies">
+            <summary>
+            模块依赖
+            </summary>
+        </member>
+        <member name="T:Tota.Core.Modularity.ModuleManager">
+            <summary>
+            ModuleManager is a class that manages modules.
+            </summary>
+        </member>
+        <member name="P:Tota.Core.Modularity.SvcCfgContext.Item(System.String)">
+            <summary>
+            获取或设置在服务注册阶段可以存储并在模块之间共享的任意命名对象。
+            这是对 <see cref="P:Tota.Core.Modularity.SvcCfgContext.Items"/> 字典的简化用法。
+            如果指定的键在 <see cref="P:Tota.Core.Modularity.SvcCfgContext.Items"/> 字典中未找到，则返回 null。
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Tota.Core.Modularity.TotaModule">
+            <summary>
+            模块实例
+            </summary>
+        </member>
+    </members>
+</doc>

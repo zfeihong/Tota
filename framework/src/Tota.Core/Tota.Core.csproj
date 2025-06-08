@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFrameworks>net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <AssemblyName>Tota.Core</AssemblyName>
+    <PackageId>Tota.Core</PackageId>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace />
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" />
+    <PackageReference Include="Microsoft.Extensions.Localization" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" />
+    <PackageReference Include="Microsoft.Extensions.Options" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="Microsoft.Extensions.Logging" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="System.Text.Encodings.Web" />
+    <PackageReference Include="System.Runtime.Loader" />
+    <PackageReference Include="System.Linq.Queryable" />
+    <PackageReference Include="JetBrains.Annotations" />
+  </ItemGroup>
+</Project>

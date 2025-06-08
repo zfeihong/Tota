@@ -1,0 +1,15 @@
+D:\github\Tota\framework\src\Tota.Core\bin\Debug\net9.0\Tota.Core.deps.json
+D:\github\Tota\framework\src\Tota.Core\bin\Debug\net9.0\Tota.Core.dll
+D:\github\Tota\framework\src\Tota.Core\bin\Debug\net9.0\Tota.Core.pdb
+D:\github\Tota\framework\src\Tota.Core\bin\Debug\net9.0\Tota.Core.xml
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.csproj.AssemblyReference.cache
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.AssemblyInfoInputs.cache
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.AssemblyInfo.cs
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.csproj.CoreCompileInputs.cache
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.sourcelink.json
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.dll
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\refint\Tota.Core.dll
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.xml
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\Tota.Core.pdb
+D:\github\Tota\framework\src\Tota.Core\obj\Debug\net9.0\ref\Tota.Core.dll

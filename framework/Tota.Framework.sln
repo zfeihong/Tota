@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4F3E744-F050-4EAD-A607-85C46A3EAA7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tota.Core", "Tota.Core", "{3DFBCC6B-21BB-4E70-BC6B-7189378BE253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tota.Core", "src\Tota.Core\Tota.Core.csproj", "{DE7297A0-7978-4413-B940-21AB9A172634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE7297A0-7978-4413-B940-21AB9A172634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7297A0-7978-4413-B940-21AB9A172634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7297A0-7978-4413-B940-21AB9A172634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7297A0-7978-4413-B940-21AB9A172634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DFBCC6B-21BB-4E70-BC6B-7189378BE253} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DE7297A0-7978-4413-B940-21AB9A172634} = {3DFBCC6B-21BB-4E70-BC6B-7189378BE253}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB05C060-E7A2-4EE1-9972-08D1B8676321}
+	EndGlobalSection
+EndGlobal
